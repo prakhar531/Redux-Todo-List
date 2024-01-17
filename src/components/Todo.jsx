@@ -11,6 +11,7 @@ export default function Todo() {
         dispatch(deleteTodo(id));
     }
     const clickDone = (id) => {
+        console.log("Mark as done");
         dispatch(markAsDone(id));
     }
     return (
